@@ -45,7 +45,7 @@ async function updateTable() {
 
 // Fetch prices and update the table
 updateTable();
-setInterval(updateTable, 60000);
+setInterval(updateTable, 600000);
 
 // Show Current Date
 document.addEventListener("DOMContentLoaded", function () {

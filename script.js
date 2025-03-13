@@ -67,5 +67,5 @@ document.addEventListener("DOMContentLoaded", function () {
 const logo_x = document.querySelector("#logo_x");
 
 logo_x.addEventListener("click", () => {
-    window.open("https://fredargox.github.io/Fredy_Arce/", "_blank");
+    window.open("https://x.com/FredyArgoX", "_blank");
 });

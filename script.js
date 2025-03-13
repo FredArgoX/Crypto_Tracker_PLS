@@ -7,11 +7,13 @@ const assets = [
     { name: "INC", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0xf808Bb6265e9Ca27002c0A04562Bf50d4FE37EAA" },
     { name: "XEN", url: "https://api.dexscreener.com/latest/dex/pairs/ethereum/0x2a9d2ba41aba912316D16742f259412B681898Db" },
     { name: "pXEN", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0x61C8D2DeE20F8e303B999D485cFa577054196B40" },
+    { name: "DXN", url: "https://api.dexscreener.com/latest/dex/pairs/ethereum/0x7F808fD904FFA3eb6A6F259e6965Fb1466A05372" },
     { name: "pDXN", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0x385de5FB8953DC34dcBB6da9CBa0896653149096" },
     { name: "DWB", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0xe644f9B23375D07f5fE11cC223716C6Db7EA356B" },
     { name: "PEAR", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0x5Ac9Ce15e67ac2c76c030B149EEe4cc73e3238Ae" },
     { name: "PEACH", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0xEC1415fdc0a7f2B8cbcE45D183Eb02b487db00F2" },
-    { name: "NANANA", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0xB1133248aB5B307f4C903fA750a44861e13383a1" }
+    { name: "NANANA", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0xB1133248aB5B307f4C903fA750a44861e13383a1" },
+    { name: "pTGC", url: "https://api.dexscreener.com/latest/dex/pairs/pulsechain/0xf5A89A6487D62df5308CDDA89c566C5B5ef94C11" }
 ];
 
 async function fetchPrice(url) {
